@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Sushan Maharjan">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <title>Product</title>
+        <style>
+            /* Makes the header of the smarphone in center */
+            .div-p1{
+            text-align: center;
+            } 
+            /* For the container of the product images */
+            .pro-container{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 20px;
+                flex-wrap: wrap;
+            }
+            /* Styles for the individual boxes */
+            .pro{
+                width: 10%;
+                min-width: 250px;
+                padding: 10px 12px;
+                border: 1px solid #cce7d0;
+                margin: 15px 0;
+                transition: 0.3s ease;
+                position: relative;
+            } 
+            /* styling the image */
+            .pro img{
+                width: 100%;
+                border-radius: 20px;
+            }
+            /* backgroun color of the container */
+            .pro .des span{
+                color: #606063;
+                font-size: 12px;
+            }
+            /* Text styling */
+            .pro .des h5{
+                padding-top: 7px;
+                color:brown;
+                font-size: 14px;
+            }
+            /* For the price of the smartphone */
+            .pro .des h4{
+                text-decoration: none;
+                color: lightskyblue;
+                font-size: 15px;
+                padding-top: 7px;
+                font-weight: 700;
+            } 
+        </style>
+	</head>
+
+        <!--This div is for Navigation Bar-->
+        <div class="header">
+            <a href="../index.html">
+                <img class="logo" src="../Images/Logo.png"  alt="Cell Store Logo">
+            </a>
+            <div class="menu">
+                <a style="color: black;" href="../index.html">Home</a>     
+                <a class="active" href="product.html">Product</a> 
+                <a href="cart.html">Cart</a> 
+                <a href="research.html">Research</a> 
+            </div>
+            <div class="rightNav">
+                <input type="text" placeholder="Search in Cell Store" name="search" id="search">
+            </div>
+        </div>
+
+
+
+        <!--This div is for Apple Smartphones-->
+        <div class="div-p1">
+            <h4 style="color: black; font-size: 25px;  background-color:cadetblue;">Apple</h4>
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="../Pages/prodetail.html">
+                    <img src="../Images/iphone-13-pro.png" alt="">
+                    <div class="des">
+                            <span>iPhone 13 Pro(128 GB)</span>
+                            <h5>The ultimate iPhone.</h5>
+                            <h4>€1,184</h4>
+                        </a>
+                    </div>
+                    </a>
+                </div>
+                <div class="pro">
+                    <img src="../Images/iphone-13.jpg" alt="">
+                    <div class="des">
+                        <span>iPhone 13(128 GB)</span>
+                        <h5>A total powerhouse</h5>
+                        <h4>€929</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="../Images/iphone-se.jpg" alt="">
+                    <div class="des">
+                        <span>iPhone SE(128 GB)</span>
+                        <h5>Serious power. Serious value.</h5>
+                        <h4>€559</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="../Images/iphone-12.jpg" alt="">
+                    <div class="des">
+                        <span>iPhone 12(64 GB)</span>
+                        <h5>As amazing as ever</h5>
+                        <h4>€829</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--This is div for Samsung smartphones-->
+        <div class="div-p1">
+            <h4 style="color: black; font-size: 25px;  background-color:cadetblue;">Samsung</h4>
+            <div class="pro-container">         
+                <div class="pro">
+                    <img src="../Images/galaxy-fold.jpg" alt="">
+                    <div class="des">
+                        <span>Galaxy Z Fold4 5G(256 GB)</span>
+                        <h5>Open your world with foldable smartphones</h5>
+                        <h4>€1,880</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="../Images/galaxy-s.jpg" alt="">
+                    <div class="des">
+                        <span>Galaxy S22 Ultra(12+256 GB)</span>
+                        <h5>Galaxy's fastest chipset and best camera</h5>
+                        <h4>€1,300</h4>
+                    </div>
+                </div>
+            <div class="pro">
+                <img src="../Images/galaxy-note.jpg" alt="">
+                <div class="des">
+                    <span>Galaxy Note20 Ultra(12+256 GB)</span>
+                    <h5>Powerful performance plus S Pen.</h5>
+                    <h4>€1,258</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="../Images/galaxy-a.jpg" alt="">
+                <div class="des">
+                    <span>Galaxy A53 5G(8+128 GB)</span>
+                    <h5>Galaxy innovation made accessible</h5>
+                    <h4>€450</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+            <!--This div is for Oneplus products-->
+            <div class="div-p1">
+                <h4 style="color: black; font-size: 25px;  background-color:cadetblue;">Oneplus</h4>
+                <div class="pro-container">
+                    <div class="pro">
+                        <img src="../Images/oneplus10pro.jpg" alt="">
+                        <div class="des">
+                            <span>Oneplus 10 Pro 5G(12+256 GB)</span>
+                            <h5>Capture Every Horizon</h5>
+                            <h4>€899</h4>
+                        </div>
+                    </div>
+                    <div class="pro">
+                        <img src="../Images/oneplus9.jpg" alt="">
+                        <div class="des">
+                            <span>Oneplus 9(12+256 GB)</span>
+                            <h5>Your Best Shot</h5>
+                            <h4>€699</h4>
+                        </div>
+                    </div>
+                    <div class="pro">
+                        <img src="../Images/oneplusnord2t5g.jpeg" alt="">
+                        <div class="des">
+                            <span>Oneplus Nord 2T 5G(8+256 GB)</span>
+                            <h5>Everything you could ask for</h5>
+                            <h4>€399</h4>
+                        </div>
+                    </div>
+                    <div class="pro">
+                        <img src="../Images/oneplusnordce25g.jpg" alt="">
+                        <div class="des">
+                            <span>Oneplus Nord CE 2 Lite 5G(8+128 GB)</span>
+                            <h5>A little more than you'd expected</h5>
+                            <h4>€299</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            
+        <!-- This div is for footer -->
+        <div>
+            <div class="footer-container">
+                <div class="upper-footer">
+                    <div class="footer-heading">
+                        <a href="#"><img class="logo" src="../Images/Logo.png" alt="" style="background-color: #008CBA;"></a>
+                        <br>
+                        <h3>We connect you to the World</h3>
+                    </div>
+                    <div class="footer-heading">
+                            <h4>Explore</h4>
+                        <a href="../index.html">Home</a>
+                        <a href="#">Product</a>
+                        <a href="../Pages/cart.html">Cart</a>
+                        <a href="../Pages/research.html">Research</a>
+                    </div>
+                    <div class="footer-heading">
+                            <h4>Follow Us</h4>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://www.instagram.com/">Instagram</a>
+                        <a href="https://www.tiktok.com/">Tiktok</a>
+                        <a href="https://www.twitter.com/">Twitter</a>
+                    </div>
+                    <div class="footer-heading">
+                            <h4>Contact</h4>
+                        <a>Cell Store</a>
+                        <a>Jhamsikhel, Lalitpur, Nepal</a>
+                        <a href="#">info@cellstore.com.np</a>
+                        <a>Tel:01-1234567, 01-9876543</a>
+                    </div>
+                    <div class="footer-heading">
+                            <h4>Legal</h4>
+                        <a href="#">Terms and Condition</a>
+                        <a href="#">Privacy and Policy</a>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="copyright">
+                        Copyright © 2022 Cell Store. All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
