@@ -20,4 +20,5 @@ The repository contains 5 HTML files:
 - research.html
 
 # Note
-The product page's first smartphone (the iPhone 13 Pro) can be clicked to view more specific product information.
+- I suggest using Google Chrome when accessing the webpage, since other Browsers may not display the page properly.
+- The product page's first smartphone (the iPhone 13 Pro) can be clicked to view more specific product information.
