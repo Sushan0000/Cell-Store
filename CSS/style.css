@@ -1,0 +1,358 @@
+/* This CSS is for the whole Page */
+* {
+	background-color:floralwhite;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+	margin: 0; 
+    padding: 0; 
+} 
+/* CSS for Homepage */
+/*For customizing the Logo */
+.logo{
+    border: 2.5px solid black;
+    border-radius: 50px;
+    height:50px;
+    width:auto;
+}
+
+/* For menu list */
+.header{
+	align-items: center;
+	display: flex;
+    font-weight: bold;
+    justify-content:space-evenly;
+    left: 0;
+    padding:5px 25px;
+    top: 0;
+}
+
+/* Dimensions for the menu-list*/
+.menu{
+    padding: 25px 25px;
+    width: 60%;
+}
+
+/* For the menu text*/
+.menu a{
+    color: black;
+    font-size: 17px;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Hover animation in navigation bar*/
+.menu a:hover,
+.menu a.active{
+    color: skyblue;
+}
+
+/* For indicating active page */
+.menu a.active::after{
+    background: skyblue;
+}
+
+/* This is for the search section */
+.rightNav{
+    text-align: right;
+    width: 200px;
+}
+
+/* This is for the search bar */
+#search{
+    border: 2.5px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* For the Brand title */
+.title{
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+/* For responsive logo alignments */
+.brand-logo-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* For the logos of smartphones brand */
+.brand-logo-container .brand-logo{
+    float: left;
+    padding: 25px;
+}
+
+/* Dimensions of the brand logos  */
+.brand-logo-container .brand-logo .pic{
+    height: 80px;
+    width:80%;
+}
+
+/* For  What's New title */
+h2{
+    font-size: 30px;
+    font-weight: bold;
+	margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* For removing underline from links in new products section */
+a:link {
+	text-decoration: none;
+}
+
+/* For styling the image of new products */
+.new{
+    color: #000;
+    float: left;
+    padding:50px;
+    text-decoration: none;
+    width: 50%;
+}
+
+/* For making the height of two images in new products equal */
+.new img{
+    height: 600px;
+}
+
+/* This removes blue color link from smartphone name */
+.new a{
+    color:#000;
+    font-size: 20px;
+}
+
+/* This is for the product slogan */
+p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* For the buttons */
+button {
+    background-color: white;
+    border: 2px solid #008CBA;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 4px 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* transition-duration: 0.4s; */
+}
+
+/* adds the animation while hovering */
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.center-pg {
+    text-align: center;
+}
+
+/* For making the videoplayer play on full resolution */
+.video-player{
+    height: 100%;
+    width: 100%; 
+}
+
+/* For responsive logo alignments */
+.pm-box-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* For payment methods */
+.pm-box{
+    display: flex;
+    float: left;
+    padding:30px 25px;
+}
+
+.pm-box img{
+    height: 110px;
+}
+
+/* For Footer */
+.footer-container {
+    padding-bottom: 5px;
+    padding-top: 50px;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+h4 {
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.footer-heading a {
+    color: black;
+    text-decoration: none;
+}
+
+/* For Bottom Footer */
+.bottom-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.copyright {
+    text-align: center;
+}
+
+/* For shopping cart */
+.div-cart .main {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.main .cost-box .box-title {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cost-box {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    padding: 25px 25px;
+    width: 400px;
+}
+
+.cost-box button {
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.product-quantity input {
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    margin-left: 350px;
+}
+.product-container .main-image {
+    padding: 10px 10px;
+    border: 2px solid #cce7d0;
+    float: left;
+    margin-right: 50px;
+}
+/* styling the image */
+.product-container .main-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(241, 242, 246);
+}
+
+.product-details {
+    overflow: auto;
+}
+        
+.product-name {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+        
+.product-price {
+    color: #FF0000;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+        
+.product-options {
+    margin-bottom: 20px;
+}
+        
+.product-options label {
+    display: block;
+}
+        
+.product-options select {
+    width: 50%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+        
+.product-quantity {
+    margin-bottom: 20px;
+}
+        
+.product-quantity input {
+    width: 40px;
+    margin-right: 5px;
+}
+        
+.wishlist {
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 4px 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.wishlist:hover {
+    background-color: red;
+    color: white;
+}
+.description{
+    width:50%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.key-specs h2{
+    text-align: justify;
+    margin-left: 370px;
+    text-decoration:underline;
+}
+.product-specifications{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+.product-specifications ul{
+    line-height: 35px;
+    margin-left: 375px;
+}
