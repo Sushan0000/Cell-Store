@@ -11,7 +11,7 @@ The repository contains a basic e-commerce website for smartphones.
 - GitHub
 - Terminal
 
-##Pages
+## Pages
 The repository contains 5 HTML files:
 - index.html
 - product.html
@@ -19,5 +19,5 @@ The repository contains 5 HTML files:
 - cart.html
 - research.html
 
-#note
+# Note
 The product page's first smartphone (the iPhone 13 Pro) can be clicked to view more specific product information.
