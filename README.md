@@ -12,8 +12,10 @@ The repository contains a basic e-commerce website for smartphones.
 - Terminal
 
 ## Pages
-The repository contains 5 HTML files:
+The repository contains 5 HTML files and a single css file:
 - index.html
+- styles.css
+
 - product.html
 - prodetail.html
 - cart.html
